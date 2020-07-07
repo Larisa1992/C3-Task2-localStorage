@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkbox</title>
+    <style>
+        fieldset{
+            max-width: 300px;
+        }
+        body .data {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="data">
+        <fieldset>
+            <legend>Отметьте, в каких странах вы были</legend>
+            <input type="checkbox" name="message" id="mes1">
+            <label for="mes1">Абхазия;</label><br>
+            <input type="checkbox" name="message" id="mes2">
+            <label for="mes2">Болгария;</label><br>
+            <input type="checkbox" name="message" id="mes3">
+            <label for="mes3">Германия;</label><br>
+            <input type="checkbox" name="message" id="mes4">
+            <label for="mes4">Египет;</label><br>
+            <input type="checkbox" name="message" id="mes5">
+            <label for="mes5">Куба;</label><br>
+            <input type="checkbox" name="message" id="mes6">
+            <label for="mes6">Тунис.</label><br>
+        </fieldset>   
+        <button type="submit" class="btn-save" style="max-width: 100px; margin-top: 10px;">Сохранить</button>
+    </div>
+    <script src="./src/second-scripts.js"></script>
+</body>
+</html>

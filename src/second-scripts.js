@@ -5,6 +5,7 @@ function setChecked() {
   arrInput.forEach((item)=> {
   if (localStorage.getItem(item)) {
     document.getElementById(item).checked = true;
+    document.getElementById(item).disabled = true;
     }
   })
 }
